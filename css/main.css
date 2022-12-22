@@ -19,6 +19,11 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+.control{
+	width: 264px;
+}
+
 .container .content .node{
 	width: calc(263px / 3);
 	height: calc(263px / 3);
@@ -35,7 +40,26 @@ body{
 }
 
 .result{
-	position: absolute;
-	top: 143px;
-	color: white;
+	color: black;
+	background: #ababab;
+	width: 180px;
+	height: 40px;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	left: 35%;
+}
+.reset {
+	color: black;
+	background: #4fc3f7;
+	width: 70px;
+	height: 40px;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	left: 57%;
+	justify-content: center;
+	cursor: pointer;
 }
