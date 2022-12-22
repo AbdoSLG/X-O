@@ -59,25 +59,25 @@ function check() {
       result.innerHTML = `${n1.innerHTML} won`
    }
    else if (n4.classList.contains("checkedX") && n5.classList.contains("checkedX") && n6.classList.contains("checkedX")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n4.innerHTML} won`
    }
    else if (n7.classList.contains("checkedX") && n8.classList.contains("checkedX") && n9.classList.contains("checkedX")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n7.innerHTML} won`
    }
    else if (n1.classList.contains("checkedX") && n5.classList.contains("checkedX") && n9.classList.contains("checkedX")) {
       result.innerHTML = `${n1.innerHTML} won`
    }
    else if (n3.classList.contains("checkedX") && n5.classList.contains("checkedX") && n7.classList.contains("checkedX")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n3.innerHTML} won`
    }
    else if (n1.classList.contains("checkedX") && n4.classList.contains("checkedX") && n7.classList.contains("checkedX")) {
       result.innerHTML = `${n1.innerHTML} won`
    }
    else if (n2.classList.contains("checkedX") && n5.classList.contains("checkedX") && n8.classList.contains("checkedX")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n2.innerHTML} won`
    }
    else if (n3.classList.contains("checkedX") && n6.classList.contains("checkedX") && n9.classList.contains("checkedX")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n3.innerHTML} won`
    }
 
 
@@ -85,25 +85,25 @@ function check() {
       result.innerHTML = `${n1.innerHTML} won`
    }
    else if (n4.classList.contains("checkedY") && n5.classList.contains("checkedY") && n6.classList.contains("checkedY")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n4.innerHTML} won`
    }
    else if (n7.classList.contains("checkedY") && n8.classList.contains("checkedY") && n9.classList.contains("checkedY")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n7.innerHTML} won`
    }
    else if (n1.classList.contains("checkedY") && n5.classList.contains("checkedY") && n9.classList.contains("checkedY")) {
       result.innerHTML = `${n1.innerHTML} won`
    }
    else if (n3.classList.contains("checkedY") && n5.classList.contains("checkedY") && n7.classList.contains("checkedY")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n3.innerHTML} won`
    }
    else if (n1.classList.contains("checkedY") && n4.classList.contains("checkedY") && n7.classList.contains("checkedY")) {
       result.innerHTML = `${n1.innerHTML} won`
    }
    else if (n2.classList.contains("checkedY") && n5.classList.contains("checkedY") && n8.classList.contains("checkedY")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n2.innerHTML} won`
    }
    else if (n3.classList.contains("checkedY") && n6.classList.contains("checkedY") && n9.classList.contains("checkedY")) {
-      result.innerHTML = `${n1.innerHTML} won`
+      result.innerHTML = `${n3.innerHTML} won`
    }else{
       if(notChecked.length==0) {
          result.innerHTML = "no one won"
